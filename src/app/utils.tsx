@@ -5,6 +5,12 @@ import tutor3 from "./images/testimonials/tutor3.jpg";
 import tutor4 from "./images/testimonials/tutor4.jpg";
 import tutor5 from "./images/testimonials/tutor5.jpg";
 
+import royal from "./images/brands/royal.jpg";
+import golden from "./images/brands/golden.png";
+import formula from "./images/brands/formula.png";
+import premier from "./images/brands/premier.jpg";
+import whiskas from "./images/brands/whiskas.jpeg";
+
 export const services = [
   {
     title: "Banho e Tosa",
@@ -96,4 +102,12 @@ export const testimonials = [
     role: "Tutora do Bob",
     image: tutor5,
   },
+];
+
+export const brands = [
+  { name: "Royal Canin", logo: royal },
+  { name: "Premier", logo: premier },
+  { name: "Whiskas", logo: whiskas },
+  { name: "Golden", logo: golden },
+  { name: "Fórmula Natural", logo: formula },
 ];
