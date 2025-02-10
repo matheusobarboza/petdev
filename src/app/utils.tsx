@@ -1,4 +1,9 @@
 import { Scissors, Syringe, CarTaxiFront, Hotel } from "lucide-react";
+import tutor1 from "./images/testimonials/tutor1.jpg";
+import tutor2 from "./images/testimonials/tutor2.jpg";
+import tutor3 from "./images/testimonials/tutor3.jpg";
+import tutor4 from "./images/testimonials/tutor4.jpg";
+import tutor5 from "./images/testimonials/tutor5.jpg";
 
 export const services = [
   {
@@ -53,4 +58,42 @@ export const services = [
   //   icon: <ChevronRight size={32} />,
   //   linkText: "Avançar",
   // },
+];
+
+export const testimonials = [
+  {
+    content:
+      "Ótimo atendimento! Meu pet foi super bem tratado e voltou muito feliz. Recomendo para todos!",
+    author: "Ana Souza",
+    role: "Tutora do Max",
+    image: tutor1,
+  },
+  {
+    content:
+      "Equipe muito profissional e cuidadosa. Levo meu gato sempre para o banho e tosa, e ele adora!",
+    author: "Carlos Mendes",
+    role: "Tutor da Luna",
+    image: tutor2,
+  },
+  {
+    content:
+      "A hospedagem foi incrível! Meu cachorro ficou super confortável e bem cuidado enquanto eu viajava.",
+    author: "Mariana Lima",
+    role: "Tutora do Thor",
+    image: tutor3,
+  },
+  {
+    content:
+      "Serviço de transporte excelente! Chegaram pontualmente e meu pet foi tratado com muito carinho.",
+    author: "Pedro Henrique",
+    role: "Tutor da Nina",
+    image: tutor4,
+  },
+  {
+    content:
+      "Vacinação segura e rápida. Agora posso ficar tranquilo sabendo que meu pet está protegido.",
+    author: "Fernanda Oliveira",
+    role: "Tutora do Bob",
+    image: tutor5,
+  },
 ];
