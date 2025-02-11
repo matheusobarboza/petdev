@@ -6,10 +6,14 @@ import { MapPin, WhatsappLogo } from "@phosphor-icons/react/dist/ssr";
 
 export function About() {
   return (
-    <section className="bg-[#fdf6ec] py-16">
+    <section className="relative bg-[#fdf6ec] py-16">
       <div className="container px-4 mx-auto ">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
-          <div className="relative">
+          <div
+            className="relative"
+            data-aos="fade-up-right"
+            data-aos-delay="300"
+          >
             <div className="relative w-full h-[400px] overflow-hidden">
               <Image
                 src={dogAboutImage}
@@ -32,7 +36,11 @@ export function About() {
             </div>
           </div>
 
-          <div className="space-y-6 mt-10">
+          <div
+            className="space-y-6 mt-10"
+            data-aos="fade-up-left"
+            data-aos-delay="300"
+          >
             <h2 className="text-4xl font-bold">SOBRE</h2>
             <p>
               Somos apaixonados por animais e acreditamos que eles merecem todo
@@ -67,7 +75,8 @@ export function About() {
 
             <div className="flex items-center justify-around">
               <a
-                href="#"
+                href={`https://wa.me/5582981799088?text=Olá vim pelo site e gostaria de mais informações.`}
+                target="_blank"
                 className="bg-white rounded-md flex gap-2 items-center justify-center w-fit px-4 py-2"
               >
                 <WhatsappLogo className="w-5 h-5 text-green-400" />
@@ -84,6 +93,7 @@ export function About() {
           </div>
         </div>
       </div>
+      <div className="absolute bottom-0 left-0 w-full h-7 bg-gradient-to-b from-[#fdf6ec] to-[#ffffff]" />
     </section>
   );
 }

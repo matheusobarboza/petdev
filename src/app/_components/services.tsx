@@ -23,7 +23,7 @@ export function Services() {
   };
 
   return (
-    <section className="bg-white py-16">
+    <section className="bg-white py-16 relative">
       <div className="container mx-auto px-4">
         <h2 className="text-4xl font-bold mb-12">SERVIÇOS</h2>
 
@@ -33,7 +33,7 @@ export function Services() {
               {services.map((service, idx) => (
                 <div
                   key={idx}
-                  className="flex-[0_0_100%] min-w-0 md:flex-[0_0_calc(100%/3)]"
+                  className="flex-[0_0_100%] min-w-0 md:flex-[0_0_calc(100%/3)] select-none"
                 >
                   <article className="bg-[#1e293b] text-white rounded-2xl p-6 space-y-4 h-full flex flex-col">
                     <div className="flex-1 flex items-start justify-between">
@@ -57,7 +57,8 @@ export function Services() {
                       </div>
 
                       <a
-                        href="#"
+                        href={`https://wa.me/5582981799088?text=Olá vim pelo site e gostaria de mais informações sobre ${service.title}`}
+                        target="_blank"
                         className="flex items-center justify-center gap-2 hover:bg-[#FFFAE5] px-4 py-1 rounded-md hover:text-[#1e293b]  duration-300"
                       >
                         <WhatsappLogo className="h-5 w-5" />
@@ -85,6 +86,7 @@ export function Services() {
           </button>
         </div>
       </div>
+      <div className="absolute bottom-0 left-0 w-full h-3 bg-gradient-to-b from-white to-orange-200" />
     </section>
   );
 }
