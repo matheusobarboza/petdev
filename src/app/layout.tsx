@@ -11,7 +11,7 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   title: "Pet Dev | Melhor Serviço para Pets",
   description:
-    "Cuidamos do seu pet com carinho e dedicação. Agende um horário para banho, tosa e mais!",
+    "Pet Dev Cuida do seu pet com carinho e dedicação. Agende um horário para banho, tosa e mais!",
 
   keywords: [
     "pets",
