@@ -2,15 +2,14 @@
 
 import { WhatsappLogo } from "@phosphor-icons/react";
 import Image from "next/image";
-import dogImage from "../images/smile-dog.png";
-import catImage from "../images/cat.png";
+import catImg from "../../../public/images/cat.png";
 
 export const Hero = () => {
   return (
     <section className="bg-[#FFFAE5] relative overflow-hidden">
       <div>
         <Image
-          src={dogImage}
+          src="/images/smile-dog.png"
           alt="Foto de um cachorro"
           fill
           sizes="100vw"
@@ -54,7 +53,7 @@ export const Hero = () => {
               <div className="flex">
                 <div className="w-32 h-40 hidden lg:block">
                   <Image
-                    src={catImage}
+                    src={catImg}
                     alt="Imagem de um gato"
                     quality={100}
                     className="object-fill"
@@ -66,7 +65,7 @@ export const Hero = () => {
 
           <div className="relative hidden md:block h-full">
             <Image
-              src={dogImage}
+              src="/images/smile-dog.png"
               alt="Imagem de um cachorro"
               className="object-contain"
               fill

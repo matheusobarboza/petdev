@@ -1,8 +1,7 @@
 import Image from "next/image";
-import dogAboutImage from "../images/dog-with-bg.png";
-import catAboutImage from "../images/cat-eyes.jpg";
 import { Check } from "lucide-react";
 import { MapPin, WhatsappLogo } from "@phosphor-icons/react/dist/ssr";
+import catImg from "../../../public/images/cat-eyes.jpg";
 
 export function About() {
   return (
@@ -16,7 +15,7 @@ export function About() {
           >
             <div className="relative w-full h-[400px] overflow-hidden">
               <Image
-                src={dogAboutImage}
+                src="/images/dog-with-bg.png"
                 alt="Foto do cachorro"
                 fill
                 quality={100}
@@ -27,7 +26,7 @@ export function About() {
 
             <div className="absolute w-40 h-40 right-4 -bottom-8 rounded-3xl border-4 overflow-hidden">
               <Image
-                src={catAboutImage}
+                src={catImg}
                 alt="Foto do gato"
                 fill
                 quality={100}

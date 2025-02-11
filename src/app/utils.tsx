@@ -1,15 +1,4 @@
 import { Scissors, Syringe, CarTaxiFront, Hotel } from "lucide-react";
-import tutor1 from "./images/testimonials/tutor1.jpg";
-import tutor2 from "./images/testimonials/tutor2.jpg";
-import tutor3 from "./images/testimonials/tutor3.jpg";
-import tutor4 from "./images/testimonials/tutor4.jpg";
-import tutor5 from "./images/testimonials/tutor5.jpg";
-
-import royal from "./images/brands/royal.jpg";
-import golden from "./images/brands/golden.png";
-import formula from "./images/brands/formula.png";
-import premier from "./images/brands/premier.jpg";
-import whiskas from "./images/brands/whiskas.jpeg";
 
 export const services = [
   {
@@ -72,42 +61,42 @@ export const testimonials = [
       "Ótimo atendimento! Meu pet foi super bem tratado e voltou muito feliz. Recomendo para todos!",
     author: "Ana Souza",
     role: "Tutora do Max",
-    image: tutor1,
+    image: "/images/testimonials/tutor1.jpg",
   },
   {
     content:
       "Equipe muito profissional e cuidadosa. Levo meu gato sempre para o banho e tosa, e ele adora!",
     author: "Carlos Mendes",
     role: "Tutor da Luna",
-    image: tutor2,
+    image: "/images/testimonials/tutor2.jpg",
   },
   {
     content:
       "A hospedagem foi incrível! Meu cachorro ficou super confortável e bem cuidado enquanto eu viajava.",
     author: "Mariana Lima",
     role: "Tutora do Thor",
-    image: tutor3,
+    image: "/images/testimonials/tutor3.jpg",
   },
   {
     content:
       "Serviço de transporte excelente! Chegaram pontualmente e meu pet foi tratado com muito carinho.",
     author: "Pedro Henrique",
     role: "Tutor da Nina",
-    image: tutor4,
+    image: "/images/testimonials/tutor4.jpg",
   },
   {
     content:
       "Vacinação segura e rápida. Agora posso ficar tranquilo sabendo que meu pet está protegido.",
     author: "Fernanda Oliveira",
     role: "Tutora do Bob",
-    image: tutor5,
+    image: "/images/testimonials/tutor5.jpg",
   },
 ];
 
 export const brands = [
-  { name: "Royal Canin", logo: royal },
-  { name: "Premier", logo: premier },
-  { name: "Whiskas", logo: whiskas },
-  { name: "Golden", logo: golden },
-  { name: "Fórmula Natural", logo: formula },
+  { name: "Royal Canin", logo: "/images/brands/royal.jpg" },
+  { name: "Premier", logo: "/images/brands/premier.jpg" },
+  { name: "Whiskas", logo: "/images/brands/whiskas.jpeg" },
+  { name: "Golden", logo: "/images/brands/golden.png" },
+  { name: "Fórmula Natural", logo: "/images/brands/formula.png" },
 ];
